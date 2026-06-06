@@ -13,6 +13,8 @@ Note: Most of the code was written by ChatGPT 5, and debugged in combination wit
 
 
 ![UI](Images/Screenshot_20260606_100959.png)
+Screenshot_20260606_101322.png
+
 
 The UI consists of two panels, Left and Right. The left panel is the input panel, and the right is the matPlotLib display.
 
