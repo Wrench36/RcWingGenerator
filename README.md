@@ -30,6 +30,7 @@ Broken into
 
 Printer
 - Typical print settings similar to any slicer.
+- Note: As this is currently an engineering Alpha, the validity of these settings is yet to be confirmed.
 
 Airfoil Section
 - Source Type: NACA 4-digit or local .dat
@@ -63,3 +64,11 @@ Save/Load/Export
 - Load Setup: Loads a json file (currently partially implemented)
 - Export G-code: Export a 3D printable G-code file
 - Export X-mirrored: Exports a G-code file with X axis mirrored, for printing starboard wings.
+
+Design note:
+- Use Spar placement option Chord mm if printing a wing in multiple files to be sure spar pockets will line up. The entered value should be the measurement from the leading edge to the center of the pocket from the end ofthe previous section.
+
+Todo:
+- Finish load from json action
+- automatic section splitting for Z height max
+- General debug and updates from feedback
