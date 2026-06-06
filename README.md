@@ -17,6 +17,9 @@ The UI:
 Example output preview:
 ![UI](Images/Screenshot_20260606_101322.png)
 
+Dependencies:
+    pip install PyQt6 matplotlib numpy
+
 The UI consists of two panels, Left and Right. The left panel is the input panel, and the right is the matPlotLib display.
 
 Input Panel
