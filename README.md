@@ -12,7 +12,7 @@ This project takes the CAD aspect out of the equasion and directly generates the
 Note: Most of the code was written by ChatGPT 5, and debugged in combination with CGPT and myself.
 
 The UI:
-![UI](Images/Screenshot_20260606_100959.png)
+![UI](Images/Screenshot_20260609_040159.png)
 
 Example output preview:
 ![UI](Images/Screenshot_20260606_101322.png)
