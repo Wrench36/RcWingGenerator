@@ -71,7 +71,15 @@ Save/Load/Export
 Design note:
 - Use Spar placement option Chord mm if printing a wing in multiple files to be sure spar pockets will line up. The entered value should be the measurement from the leading edge to the center of the pocket from the end ofthe previous section.
 
+
+Update:
+- I've refactored how the drawing process works to simplify and squash a lot of bugs. Rather than tryign to draw the perimeters of each object with adds and subtracts, the codebase now draws primitives for each object (top and bottom, inner and outer, ribs, spars, spar webs) and traces around them. This means that all the complicated add/subtract operations are done much more reliably, and the inner/outer rib features now function properly. This is the _area_walk version.
+- This version should have working json loading.
+- Printer options now have X and Y size, and an auto center button in the Gcode section to fix the annoying centering issues
+- Mirror option goes along bounding box center, so the same centering values can be used for port/starboard wings
+
+
+
 Todo:
-- Finish load from json action
 - automatic section splitting for Z height max
 - General debug and updates from feedback
